@@ -6,16 +6,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://downloadr.flickr.com/dl/d9a7218856298cf60ec82892cacc142e848e2e3d);
+  background-image: url(background.svg);
   background-size: cover;
   background-position: center;
 }
 
 h1 {
   font-family: 'Arima Madurai', cursive;
+  line-height: 52px;
   font-size: 48px;
   font-weight: 700;
   color: #E05151;
+  padding: 5px 10px;
 }
 
 ul li {
@@ -25,4 +27,7 @@ ul li a {
   text-decoration: none;
   font-size: 20px;
   color: #fff;
+}
+ul li a:hover {
+  color: rgba(255, 230, 117, 0.8);
 }
